@@ -6,6 +6,10 @@ from app.etl_central.assets.pipeline_logging import PipelineLogging
 from app.etl_central.pipelines.egresos_detallado_pipeline import pipeline as egresos_single_pipeline
 from app.etl_central.pipelines.egresos_detallados_bulk_pipeline import pipeline as egresos_bulk_pipeline
 
+
+
+
+
 # Optional routes if you want them too (safe to leave out)
 try:
     from app.etl_central.pipelines.ingresos_detallados_pipeline import pipeline as ingresos_single_pipeline
